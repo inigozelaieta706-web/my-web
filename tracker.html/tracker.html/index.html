@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mis objetivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="titulo"></h1>
+    <button id="btnPasados" type="button">Ver meses pasados</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Checklist del mes</h2>
+      <div class="scroll"><table id="tabla"></table></div>
+    </section>
+
+    <section>
+      <h2>Tareas hechas por día</h2>
+      <canvas id="grafico" width="900" height="300"></canvas>
+      <p id="resumen" class="resumen"></p>
+    </section>
+
+    <section>
+      <h2>Notas</h2>
+      <textarea id="notas" placeholder="Escribe lo que quieras. Se guarda solo."></textarea>
+    </section>
+
+    <section id="pasados" hidden>
+      <h2>Meses pasados</h2>
+      <div id="listaPasados"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
