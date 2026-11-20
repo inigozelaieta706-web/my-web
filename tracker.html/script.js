@@ -1,10 +1,13 @@
 const TAREAS = [
+const TAREAS = [
   "Leer 10 páginas",
   "Estudiar",
   "Trabajar en proyectos",
   "Andar",
   "Menos de 3 h con el móvil",
-  "Ayudar en casa"
+  "Ayudar en casa",
+  "Hacer ejercicio"
+];
 ];
 const MESES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 const KEY = "tracker-objetivos";
